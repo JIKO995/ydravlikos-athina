@@ -33,6 +33,13 @@ const areas = [
   "Όλη Αττική",
 ];
 
+const benefits = [
+  "Άμεση ανταπόκριση",
+  "Καθαρή εργασία",
+  "Τίμιες τιμές",
+  "24ωρη εξυπηρέτηση",
+];
+
 function App() {
   return (
     <main>
@@ -69,6 +76,12 @@ function App() {
               ανταπόκριση σε όλη την Αττική.
             </p>
 
+            <div className="heroBenefitsLine">
+              {benefits.map((benefit) => (
+                <span key={benefit}>✓ {benefit}</span>
+              ))}
+            </div>
+
             <div className="heroButtons">
               <a className="primaryBtn" href={`tel:${phone}`}>
                 Καλέστε τώρα
@@ -89,12 +102,6 @@ function App() {
               >
                 WhatsApp
               </a>
-            </div>
-
-            <div className="trust">
-              <span>✓ Άμεση ανταπόκριση</span>
-              <span>✓ Καθαρή εργασία</span>
-              <span>✓ Τίμιες τιμές</span>
             </div>
           </div>
 
@@ -219,7 +226,6 @@ function App() {
         </div>
       </footer>
 
-      {/* Floating Buttons */}
       <div className="floatingButtons">
         <a href={`tel:${phone}`} className="floatBtn callFloat">
           📞
