@@ -77,7 +77,7 @@ a {
     width: auto;
     display:block;
     object-fit: contain;
-    transform: scale(2.70) translateY(5px);
+    transform: scale(2.70) translateY(10px);
     transform-origin: center center;
 }
 
