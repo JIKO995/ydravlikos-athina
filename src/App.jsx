@@ -39,8 +39,7 @@ function App() {
       <header className="header">
         <div className="container nav">
           <div className="brand">
-            <span>Υδραυλικές Εργασίες</span>
-            <strong>Τσίνας Παντελής</strong>
+            <img src="/logo.png" alt="Τσίνας Παντελής" className="logo" />
           </div>
 
           <nav>
