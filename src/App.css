@@ -51,37 +51,81 @@ a {
     justify-content: space-between;
     gap: 24px;
 }
-
 .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
     color: white;
+}
+
+.logo {
+    height: 62px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.brand-text {
     display: flex;
     flex-direction: column;
     line-height: 1.1;
 }
 
-    .brand span {
-        font-size: 14px;
-        opacity: 0.85;
-    }
+.brand-text strong {
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    font-weight: 900;
+}
 
-    .brand strong {
-        font-size: 22px;
-        letter-spacing: 0.5px;
-    }
+.brand-text span {
+    font-size: 13px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
 nav {
     display: flex;
     gap: 10px;
 }
 
-    nav a {
-        background: white;
-        color: var(--blue);
-        padding: 11px 16px;
-        border-radius: 12px;
-        font-weight: 800;
-        font-size: 14px;
+nav a {
+    background: white;
+    color: var(--blue);
+    padding: 11px 16px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 14px;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 44px;
     }
+
+    .brand-text strong {
+        font-size: 16px;
+    }
+
+    .brand-text span {
+        font-size: 10px;
+    }
+
+    nav {
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
 
 .navCall {
     background: var(--red);
