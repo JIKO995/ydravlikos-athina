@@ -59,10 +59,12 @@ a {
 }
 
 .logo {
-    height: 95px;
+    height: 170px;
     width: auto;
     object-fit: contain;
     display: block;
+    transform: scale(2.2);
+    transform-origin: left center;
 }
 
 .brand-text {
@@ -105,11 +107,11 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .logo {
-        height: 58px;
-        width: auto;
-        object-fit: contain;
-        display: block;
+        height: 75px;
+        transform: scale(1.45);
+        transform-origin: left center;
     }
+}
 
     .brand-text strong {
         font-size: 16px;
