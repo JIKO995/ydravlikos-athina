@@ -64,7 +64,7 @@ a {
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.95);
+    transform: scale(2);
     transform-origin: left center;
 }
 
