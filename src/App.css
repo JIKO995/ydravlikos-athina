@@ -55,23 +55,21 @@ a {
 }
 
 /* LOGO AREA */
-.brand{
-    min-width: 520px;
-    gap: 18px;
-}
-.nav {
+.nav{
     height: 96px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
 }
-.brand {
+
+.brand{
     display: flex;
     align-items: center;
     gap: 16px;
     min-width: 470px;
     color: white;
+    margin-left: 28px;   /* δεξιά μετακίνηση */
 }
 
 .logo{
@@ -83,10 +81,10 @@ a {
     transform-origin: center center;
 }
 
-.brand-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
+.brand-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.1;
 }
 
 .brand-text strong {
