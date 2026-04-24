@@ -45,7 +45,7 @@ a {
 }
 
 .nav {
-    height: 88px;
+    height: 92px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,11 +59,11 @@ a {
 }
 
 .logo {
-    height: 88px;
+    height: 94px;
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.45);
+    transform: scale(1.58);
     transform-origin: left center;
 }
 
