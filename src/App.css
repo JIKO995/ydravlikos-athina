@@ -79,7 +79,7 @@ a {
     width: auto;
     display:block;
     object-fit: contain;
-    transform: scale(2.55) translateY(0px);
+    transform: scale(2.55) translateY(4px);
     transform-origin: center center;
 }
 
