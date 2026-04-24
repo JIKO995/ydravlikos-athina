@@ -45,7 +45,7 @@ a {
 }
 
 .nav {
-    height: 92px;
+    height: 108px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,7 +63,7 @@ a {
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.58);
+    transform: scale(1.68);
     transform-origin: left center;
 }
 
