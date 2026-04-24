@@ -122,7 +122,7 @@ nav a:hover {
 @media (max-width: 768px) {
     .logo {
         height: 68px;
-        transform: scale(1.22); translateY(5px);
+        transform: scale(1.22) translateY(5px);
         transform-origin: left center;
     }
 
