@@ -44,6 +44,21 @@ a {
     backdrop-filter: blur(12px);
 }
 
+/* HEADER CONTAINER */
+.header .container{
+    width: min(1500px, 96%);
+}
+
+/* NAVBAR */
+.nav{
+    height: 104px;
+}
+
+/* LOGO AREA */
+.brand{
+    min-width: 520px;
+    gap: 18px;
+}
 .nav {
     height: 96px;
     display: flex;
@@ -59,12 +74,12 @@ a {
     color: white;
 }
 
-.logo {
-    height: 105px;
+.logo{
+    height: 118px;
     width: auto;
+    display:block;
     object-fit: contain;
-    display: block;
-    transform: scale(2);
+    transform: scale(2.15);
     transform-origin: left center;
 }
 
