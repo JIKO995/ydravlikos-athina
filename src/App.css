@@ -105,7 +105,10 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .logo {
-        height: 44px;
+        height: 95px;
+        width: auto;
+        object-fit: contain;
+        display: block;
     }
 
     .brand-text strong {
