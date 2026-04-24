@@ -45,7 +45,7 @@ a {
 }
 
 .nav {
-    height: 96px;
+    height: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,16 +54,16 @@ a {
 .brand {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     color: white;
 }
 
 .logo {
-    height: 170px;
+    height: 68px;
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(2.2);
+    transform: scale(1.18);
     transform-origin: left center;
 }
 
@@ -107,8 +107,8 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .logo {
-        height: 75px;
-        transform: scale(1.45);
+        height: 52px;
+        transform: scale(1);
         transform-origin: left center;
     }
 
@@ -548,7 +548,7 @@ footer {
 @media (max-width: 768px) {
     .nav {
         height: auto;
-        padding: 14px 0;
+        padding: 12px 0;
     }
 
     .brand span {
