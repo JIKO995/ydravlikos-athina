@@ -45,7 +45,7 @@ a {
 }
 
 .nav {
-    height: 108px;
+    height: 96px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,11 +59,11 @@ a {
 }
 
 .logo {
-    height: 108px;
+    height: 98px;
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.8);
+    transform: scale(1.68);
     transform-origin: left center;
 }
 
@@ -107,8 +107,8 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .logo {
-        height: 62px;
-        transform: scale(1.15);
+        height: 68px;
+        transform: scale(1.22);
         transform-origin: left center;
     }
 
