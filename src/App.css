@@ -575,8 +575,8 @@ footer {
     }
 
     .logo {
-        height: 82px;
-        transform: scale(2.05) translateY(2px);
+        height: 92px;
+        transform: scale(2.45) translateY(3px);
         transform-origin: left center;
     }
 
@@ -706,8 +706,8 @@ footer {
     }
 
     .logo {
-        height: 76px;
-        transform: scale(2.05) translateY(2px);
+        height: 86px;
+        transform: scale(2.25) translateY(3px);
     }
 
     .hero h1 {
