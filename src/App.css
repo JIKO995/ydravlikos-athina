@@ -54,16 +54,17 @@ a {
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
+    min-width: 420px;
     color: white;
 }
 
 .logo {
-    height: 98px;
+    height: 105px;
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.68);
+    transform: scale(1.95);
     transform-origin: left center;
 }
 
