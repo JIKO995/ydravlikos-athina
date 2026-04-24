@@ -79,8 +79,8 @@ a {
     width: auto;
     display:block;
     object-fit: contain;
-    transform: scale(2.15);
-    transform-origin: left center;
+    transform: scale(2.55) translateY(0px);
+    transform-origin: center center;
 }
 
 .brand-text {
