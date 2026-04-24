@@ -77,7 +77,7 @@ a {
     width: auto;
     display:block;
     object-fit: contain;
-    transform: scale(2.10) translateY(14px);
+    transform: scale(2.10) translateY(15px);
     transform-origin: center center;
 }
 
@@ -122,7 +122,7 @@ nav a:hover {
 @media (max-width: 768px) {
     .logo {
         height: 68px;
-        transform: scale(1.22);
+        transform: scale(1.22); translateY(5px);
         transform-origin: left center;
     }
 
@@ -576,7 +576,7 @@ footer {
 
     .logo {
         height: 92px;
-        transform: scale(2.45) translateY(3px);
+        transform: scale(2.45) translateY(5px);
         transform-origin: left center;
     }
 
@@ -707,7 +707,7 @@ footer {
 
     .logo {
         height: 86px;
-        transform: scale(2.25) translateY(3px);
+        transform: scale(2.25) translateY(5px);
     }
 
     .hero h1 {
