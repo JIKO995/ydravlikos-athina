@@ -152,18 +152,16 @@ function App() {
           </div>
 
           <div className="servicesGrid">
-            {services.map((service) => (
-              <article className="serviceCard" key={service}>
-                <div className="icon">🔧</div>
-                <h3>{service}</h3>
+  {services.map((service) => (
+    <article className="serviceCard" key={service.title}>
+      <div className="icon">🔧</div>
 
-                <p>
-                  Υπεύθυνη εξυπηρέτηση με σωστή διάγνωση, καθαρή εργασία και
-                  άμεση ολοκλήρωση.
-                </p>
-              </article>
-            ))}
-          </div>
+      <h3>{service.title}</h3>
+
+      <p>{service.text}</p>
+    </article>
+  ))}
+</div>
         </div>
       </section>
 
