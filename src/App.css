@@ -45,7 +45,7 @@ a {
 }
 
 .nav {
-    height: 82px;
+    height: 88px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,16 +54,16 @@ a {
 .brand {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     color: white;
 }
 
 .logo {
-    height: 68px;
+    height: 88px;
     width: auto;
     object-fit: contain;
     display: block;
-    transform: scale(1.18);
+    transform: scale(1.45);
     transform-origin: left center;
 }
 
@@ -107,8 +107,8 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .logo {
-        height: 52px;
-        transform: scale(1);
+        height: 62px;
+        transform: scale(1.15);
         transform-origin: left center;
     }
 
